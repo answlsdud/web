@@ -27,7 +27,6 @@
             flex: 4;
         }
         aside{
-            float: right;
             flex: 1;
         }
         ul {list-style-type: none;}

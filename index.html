@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <mata name="keywords" content="ga, happy shose store, 예쁜신발">
+    <meta name="autor" content="jinyoung">
+    <title>Welcom to happy shose's site</title>
+    <script src="https://kit.fontawesome.com/58de7999d2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/mystyle.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        body{
+            margin: auto;
+            display: 980px;
+         }
+        section{
+            display: flex;
+        }
+        .content{
+            flex: 4;
+        }
+        aside{
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <header id="home">
+        <i class="fa-sharp fa-solid fa-bars"></i>
+        <h1>happy shose site</h1>
+    </header>
+    <nav>
+       <ul>
+        <li><a href="../main/index.html">홈</a></li>
+        <li>쇼핑</li>
+        <li>이벤트</li>
+        <li>커뮤니티</li>
+       </ul>
+
+    </nav>
+
+    <secion>
+        <div class="content">
+        <article>        
+            <div class="shoes">
+                <img src="./images/imges(0).jpg" alt="메인이미지" class="w3-round" width="50%">
+
+            </div>
+            
+        </article>
+        <br><br>
+
+        <article>동영상</article>
+        <article> choice shoes
+            <div class="w3-container w3-center">
+                <iframe width="80%" height="500" src="./galley.html " frameborder="0"></iframe>
+            </div>
+        </article>
+        </div>
+        <aside class="w3-panel w3-border">
+            <div class="w3-panel w3-border">
+                <a href="http:/mis.deu.ac.kr" target="_blank">경영정보학과 사이트</a> <br>
+                <a href="./galley.html">갤러리</a> <br>
+                <a href="#home">시작이동</a>
+            </div>
+            <div class=login>
+                <h2>로그인</h2>
+                <form action="#" method="get">
+                    회원ID<input type="text"  class="w3-input" name="id" id=""> <br>
+                    비밀번호 <input type="password" class="w3-input" name="pw" id=""> <br>
+                    남자 <input type="radio" name="gender" value="1" id="">
+                    여자 <input type="radio" name="gender" value="2" id="">
+                    <br>
+                    <input type="submit" class="w3-button w3-black" value="로그인"> 
+                    <input type="reset" class="w3-button w3-black" value="재설정">
+                   
+                </form>
+            </div>
+
+        </aside>
+    </section>
+    <footer>저작권 주소</footer>
+    
+</body>
+</html>
